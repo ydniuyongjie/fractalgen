@@ -18,7 +18,7 @@ This is a PyTorch/GPU implementation of the paper [Fractal Generative Models](ht
 }
 ```
 
-This repo contains:
+FractalGen enables pixel-by-pixel high-resolution image generation for the first time. This repo contains:
 
 * 🪐 A simple PyTorch implementation of [Fractal Generative Model](models/fractalgen.py).
 * ⚡️ Pre-trained pixel-by-pixel generation models trained on ImageNet 64x64 and 256x256.
