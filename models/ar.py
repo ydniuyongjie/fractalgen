@@ -492,5 +492,8 @@ class AR(nn.Module):
             if visualize:
                 visualize_patch(self.unpatchify(patches))
 
+        # clean up kv cache
+        for b in self.blocks:
+            b.attention.kv_cache = None
         patches = self.unpatchify(patches)
         return patches
