@@ -1,0 +1,5 @@
+*.pyc
+.gitgnore
+launch.json
+settings.json
+.vscode/
